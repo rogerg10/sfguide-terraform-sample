@@ -9,7 +9,7 @@ terraform {
 locals {
   organization_name = "srgjawn"
   account_name      = "lu39647"
-  private_key_path  = "C:/Users/rgarcia/.ssh/rsa_key.p8"
+  private_key_path  = "C:/Users/rgarcia/.ssh/snowflake_tf_snow_key.p8"
 }
 
 provider "snowflake" {
